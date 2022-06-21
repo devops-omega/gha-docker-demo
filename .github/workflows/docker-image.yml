@@ -25,8 +25,8 @@ jobs:
     
     - name: Build the Docker image
       run: |
-        docker build . --file Dockerfile --tag ghcr.io/pbharambe/my-image-name:latest
-        docker push ghcr.io/pbharambe/my-image-name:latest
-        docker pull ghcr.io/pbharambe/my-image-name:latest
-        docker run ghcr.io/pbharambe/my-image-name:latest
+        docker build . --file Dockerfile --tag ghcr.io/devops-omega/my-image-name:latest
+        docker push ghcr.io/devops-omega/my-image-name:latest
+        docker pull ghcr.io/devops-omega/my-image-name:latest
+        docker run ghcr.io/devops-omega/my-image-name:latest
         
